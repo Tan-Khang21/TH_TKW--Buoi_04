@@ -1,0 +1,7 @@
+#click {
+    color: black; /* Màu chữ mặc định */
+}
+
+#myCheckbox:checked + #label {
+    color: red; /* Màu chữ thay đổi khi checkbox được check */
+}

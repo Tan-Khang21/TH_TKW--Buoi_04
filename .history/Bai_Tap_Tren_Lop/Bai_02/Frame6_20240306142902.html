@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      style="
+        background-image: url(../Bai_02/images/hinh.jpg);
+        width: 1000px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 10px;
+      "
+    >
+      <h2 style="width: 35%; margin: 0 auto">Thông Tin Khách Hàng</h2>
+    <table border="1px" style="Width: 800px; margin-top: 20px;">
+        <tr>
+            <th style="width: 25%;">Tên Khách Hàng</th>
+            <td  colspan="2"><input type="text" style="width: 57%;"></td>
+        </tr>
+        <tr>
+            <th style="width: 25%;">Tình Trạng:</th>
+            <td  >
+                <select style="width: 70%;">
+                    <option value="">Khách hàng VIP</option>
+                    <option value="">Khách hàng thành viên</option>
+                    <option value="">Khách hàng mới</option>
+                </select>
+            </td>
+            <td align="center"><span>Mã KH: </span><input style="width: 25%;" type="text"></td>
+        </tr>
+        <tr>
+            <th style="width: 25%;">Chọn Khu:</th>
+            <td colspan="2" ><input type="radio" name="radio"> Khách sạn
+            <input type="radio" name="radio"> Karaoke</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><span>Số Phòng: </span>
+            <input type="number"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2" ><input type="radio" name="radio2"> Bar Club
+            <input type="radio" name="radio2"> Coffee</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><span>Số Bàn: </span>
+            <input type="number"></td>
+        </tr>
+      <tr>
+        <th>Yêu Cầu: </th>
+        <td><textarea style="resize: none; width: 99%;" cols="40" rows="5"></textarea></td>
+      </tr>
+      <tr>
+        <td align="right" colspan="2" > <input type="button" value="GỬI THÔNG TIN"></td>
+      </tr>
+      <tr>
+        <th colspan="3" style="color: red;" >Quý khách vui lòng điền thông tin đầy đủ trước khi đặt món ăn.!!!</th>
+      </tr>
+    </table>
+    </div>
+  </body>
+</html>
